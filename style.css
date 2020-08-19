@@ -1,0 +1,35 @@
+div.column-wrapper {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(216, 213, 213);
+    cursor: pointer;
+    margin: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div.column[clicked] {
+    background-color: rgba(240, 238, 238, 0.932);
+}
+
+div.column-wrapper:hover {
+    background-color: grey;
+}
+.exploded {
+    background-color: red;
+}
+
+div.column {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    line-height: 0px;
+}
